@@ -12,6 +12,14 @@ db_host = os.getenv("DB_HOST")
 db_port = os.getenv("DB_PORT")
 db_name = os.getenv("DB_NAME")
 
+## Agent Database
+# Data-Analytics
+agent_da_database = os.getenv("AGENT_DA_DATABASE")
+connection_kwargs = {
+    "autocommit": True,
+    "prepare_threshold": 0,
+}
+
 
 class DatabaseType(str, Enum):
     POSTGRESQL = "PostgreSQL"

@@ -36,6 +36,7 @@ class GenerateSQLCreatorState(TypedDict):
     tables_columns_validation_status: bool = True
     query_execution_validation_status: bool = True
     schema_error_message: str
+    execution_error_message: str
     count: int
     count_for_visualization: int
     dataframe: pd.DataFrame

@@ -148,6 +148,14 @@ authentication/
 # Rope project settings
 .ropeproject
 
+# Poetry lock
+poetry.lock
+
+# Python files
+metabase.py
+password_hasher.py
+test.py
+
 # mkdocs documentation
 /site
 

@@ -254,7 +254,6 @@ async def store_database(
 async def get_database(
     client_info: ClientCreate, db_session: AsyncSession = Depends(get_db_session)
 ):
-    print("REACHER HERE")
     async with db_session as db:
         # Single query using JOIN to get all required data
         query = (
@@ -417,6 +416,8 @@ async def process_excel(
             client_email = request.client_email
             filename = ""
             file_contents = []
+
+            print(f"COUNT OF FILES: {len(files)}")
 
             for file in files:
                 filename = file["filename"]
