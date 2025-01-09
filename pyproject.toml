@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "agent-service-toolkit"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+uvicorn = "^0.34.0"
+python-dotenv = "^1.0.1"
+langchain-anthropic = "^0.3.1"
+langchain-aws = "^0.2.10"
+langchain-community = "^0.3.13"
+langchain-google-genai = "^2.0.7"
+langchain-groq = "^0.2.2"
+langchain-openai = "^0.2.14"
+pandas = "^2.2.3"
+fastapi = "^0.115.6"
+langgraph = "^0.2.60"
+langgraph-checkpoint-sqlite = "^2.0.1"
+numexpr = "^2.10.2"
+duckduckgo-search = "^7.1.1"
+asyncpg = "^0.30.0"
+pydantic = {extras = ["email"], version = "^2.10.4"}
+minio = "^7.2.13"
+qdrant-client = "^1.12.2"
+streamlit = "^1.41.1"
+streamlit-authenticator = "^0.4.1"
+sql-metadata = "^2.15.0"
+psycopg = {extras = ["binary", "pool"], version = "^3.2.3"}
+psycopg-pool = "^3.2.4"
+langgraph-checkpoint-postgres = "^2.0.9"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
