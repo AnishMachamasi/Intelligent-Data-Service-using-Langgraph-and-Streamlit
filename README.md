@@ -17,7 +17,9 @@ This project offers a template for you to easily build and run your own agents u
 
 ### Architecture Diagram
 
-<img src="media/agent_architecture.png" width="600">
+<div style="text-align:center;">
+  <img src="media/agent_architecture.png" width="600">
+</div>
 
 ## Why LangGraph?
 
